@@ -1,8 +1,8 @@
 //
 //  LocationsDataService.swift
-//  MapTest
+//  MapApp
 //
-//  Created by Nick Sarno on 11/26/21.
+//  Created by Ian   on 17/05/2025.
 //
 
 import Foundation
@@ -11,60 +11,84 @@ import MapKit
 class LocationsDataService {
     
     static let locations: [Location] = [
+     
         Location(
-            name: "Colosseum",
-            cityName: "Rome",
-            coordinates: CLLocationCoordinate2D(latitude: 41.8902, longitude: 12.4922),
-            description: "The Colosseum is an oval amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum. It is the largest ancient amphitheatre ever built, and is still the largest standing amphitheatre in the world today, despite its age.",
+            name: "Nairobi National Park",
+            cityName: "Nairobi",
+            coordinates: CLLocationCoordinate2D(latitude: -1.3652, longitude: 36.8844),
+            description: "Nairobi National Park is a unique wildlife conservation area located just 7 kilometers from the center of Nairobi. Established in 1946, it's the oldest national park in Kenya and offers visitors the remarkable experience of seeing lions, giraffes, zebras, and other wildlife with the city's skyline in the background.",
             imageNames: [
-                "rome-colosseum-1",
-                "rome-colosseum-2",
-                "rome-colosseum-3",
+                "nairobi-national-park-1",
+                "nairobi-national-park-2",
+                "nairobi-national-park-3",
             ],
-            link: "https://en.wikipedia.org/wiki/Colosseum"),
+            link: "https://en.wikipedia.org/wiki/Nairobi_National_Park"),
         Location(
-            name: "Pantheon",
-            cityName: "Rome",
-            coordinates: CLLocationCoordinate2D(latitude: 41.8986, longitude: 12.4769),
-            description: "The Pantheon is a former Roman temple and since the year 609 a Catholic church, in Rome, Italy, on the site of an earlier temple commissioned by Marcus Agrippa during the reign of Augustus.",
+            name: "Giraffe Centre",
+            cityName: "Nairobi",
+            coordinates: CLLocationCoordinate2D(latitude: -1.3753, longitude: 36.7465),
+            description: "The Giraffe Centre is a nature sanctuary established to protect the endangered Rothschild's giraffe. Visitors can hand-feed giraffes from an elevated platform, making it a unique interactive wildlife experience in the heart of Nairobi.",
             imageNames: [
-                "rome-pantheon-1",
-                "rome-pantheon-2",
-                "rome-pantheon-3",
+                "nairobi-giraffe-1",
+                "nairobi-giraffe-2",
+                "nairobi-giraffe-3",
             ],
-            link: "https://en.wikipedia.org/wiki/Pantheon,_Rome"),
+            link: "https://en.wikipedia.org/wiki/Giraffe_Centre"),
         Location(
-            name: "Trevi Fountain",
-            cityName: "Rome",
-            coordinates: CLLocationCoordinate2D(latitude: 41.9009, longitude: 12.4833),
-            description: "The Trevi Fountain is a fountain in the Trevi district in Rome, Italy, designed by Italian architect Nicola Salvi and completed by Giuseppe Pannini and several others. Standing 26.3 metres high and 49.15 metres wide, it is the largest Baroque fountain in the city and one of the most famous fountains in the world.",
+            name: "Karen Blixen Museum",
+            cityName: "Nairobi",
+            coordinates: CLLocationCoordinate2D(latitude: -1.3534, longitude: 36.7144),
+            description: "The Karen Blixen Museum was once the home of Danish author Karen Blixen, famous for her book 'Out of Africa.' The colonial farmhouse has been preserved as a museum and offers insights into Kenya's colonial period and Blixen's life.",
             imageNames: [
-                "rome-trevifountain-1",
-                "rome-trevifountain-2",
-                "rome-trevifountain-3",
+                "nairobi-blixen-1",
+                "nairobi-blixen-2",
+                "nairobi-blixen-3",
             ],
-            link: "https://en.wikipedia.org/wiki/Trevi_Fountain"),
+            link: "https://en.wikipedia.org/wiki/Karen_Blixen_Museum"),
         Location(
-            name: "Eiffel Tower",
-            cityName: "Paris",
-            coordinates: CLLocationCoordinate2D(latitude: 48.8584, longitude: 2.2945),
-            description: "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower. Locally nicknamed 'La dame de fer', it was constructed from 1887 to 1889 as the centerpiece of the 1889 World's Fair and was initially criticized by some of France's leading artists and intellectuals for its design, but it has become a global cultural icon of France and one of the most recognizable structures in the world.",
+            name: "Nairobi National Museum",
+            cityName: "Nairobi",
+            coordinates: CLLocationCoordinate2D(latitude: -1.2741, longitude: 36.8172),
+            description: "The Nairobi National Museum showcases Kenya's rich heritage with collections that include prehistoric artifacts, tribal crafts, and natural history exhibits. It's a comprehensive introduction to Kenya's cultural and natural diversity.",
             imageNames: [
-                "paris-eiffeltower-1",
-                "paris-eiffeltower-2",
+                "nairobi-museum-1",
+                "nairobi-museum-2",
+                "nairobi-museum-3",
             ],
-            link: "https://en.wikipedia.org/wiki/Eiffel_Tower"),
+            link: "https://en.wikipedia.org/wiki/Nairobi_National_Museum"),
         Location(
-            name: "Louvre Museum",
-            cityName: "Paris",
-            coordinates: CLLocationCoordinate2D(latitude: 48.8606, longitude: 2.3376),
-            description: "The Louvre, or the Louvre Museum, is the world's most-visited museum and a historic monument in Paris, France. It is the home of some of the best-known works of art, including the Mona Lisa and the Venus de Milo. A central landmark of the city, it is located on the Right Bank of the Seine in the city's 1st arrondissement.",
+            name: "Karura Forest",
+            cityName: "Nairobi",
+            coordinates: CLLocationCoordinate2D(latitude: -1.2405, longitude: 36.8291),
+            description: "Karura Forest is an urban forest reserve covering 1,000 hectares in Nairobi. It features hiking trails, waterfalls, caves, and abundant wildlife, providing a peaceful natural retreat within the bustling city.",
             imageNames: [
-                "paris-louvre-1",
-                "paris-louvre-2",
-                "paris-louvre-3",
+                "nairobi-karura-1",
+                "nairobi-karura-2",
+                "nairobi-karura-3",
             ],
-            link: "https://en.wikipedia.org/wiki/Louvre"),
+            link: "https://en.wikipedia.org/wiki/Karura_Forest"),
+        Location(
+            name: "Bomas of Kenya",
+            cityName: "Nairobi",
+            coordinates: CLLocationCoordinate2D(latitude: -1.3236, longitude: 36.7772),
+            description: "Bomas of Kenya is a cultural center that preserves and promotes the rich diversity of Kenya's tribal cultures. It features traditional homesteads (bomas) from various ethnic groups and hosts daily performances of traditional dances and music.",
+            imageNames: [
+                "nairobi-bomas-1",
+                "nairobi-bomas-2",
+                "nairobi-bomas-3",
+            ],
+            link: "https://en.wikipedia.org/wiki/Bomas_of_Kenya"),
+        Location(
+            name: "Nairobi Railway Museum",
+            cityName: "Nairobi",
+            coordinates: CLLocationCoordinate2D(latitude: -1.2908, longitude: 36.8248),
+            description: "The Nairobi Railway Museum documents the history of Kenya's railway system, which played a crucial role in the country's development. The museum displays vintage locomotives, artifacts, and photographs that tell the story of the famous 'Lunatic Express' railway line.",
+            imageNames: [
+                "nairobi-railway-1",
+                "nairobi-railway-2",
+                "nairobi-railway-3",
+            ],
+            link: "https://en.wikipedia.org/wiki/Nairobi_Railway_Museum")
     ]
     
 }
